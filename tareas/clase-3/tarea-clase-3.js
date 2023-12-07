@@ -21,6 +21,13 @@ else console.log('Hola ' + nombreUsuario + '!');
 // Preguntar la edad del usuario
 // Hacerle saber si tiene más, menos ó la misma edad que nosotros.
 
+var edadMia = 20;
+var edadUsuario = Number(prompt('Hola, que edad tienes?'));
+
+if (edadMia < edadUsuario) console.log('Oh sos mayor que yo!');
+if (edadMia > edadUsuario) console.log('Oh sos menor que yo!');
+if (edadMia === edadUsuario) console.log('Tenes la misma edad que yo!');
+
 //Tarea 3:
 // Preguntarle al usuario si tiene documento, y que conteste con "si" o "no".
 // Si dice si, preguntarle la edad.
