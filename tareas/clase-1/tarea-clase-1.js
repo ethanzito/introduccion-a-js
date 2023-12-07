@@ -13,7 +13,12 @@ console.log('Tu edad es ' + edadUsuario(anioActual, anioNacido));
 
 // b) Preguntar el salario anual y calcular el salario mensual
 
+var salarioAnual = Number(prompt('cual es tu salario anual?'));
+function salarioMensual(salarioAnual) {
+    return salarioAnual / 12;
+}
 
+console.log('Por mes ganas $' + salarioMensual(salarioAnual));
 
 // c) Preguntar el salario mensual y calcular el anual
 // diario... semanal, por hora. etc.
