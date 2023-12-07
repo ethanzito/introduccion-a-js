@@ -4,7 +4,12 @@
 // Ejecutar la función con estos datos
 // Impriman el resultado en la consola
 
-
+var anioActual = 2023;
+var anioNacido = Number(prompt('cuando naciste?'));
+function edadUsuario(anioActual, anioNacido) {
+    return anioActual - anioNacido;
+}
+console.log('Tu edad es ' + edadUsuario(anioActual, anioNacido));
 
 // b) Preguntar el salario anual y calcular el salario mensual
 
