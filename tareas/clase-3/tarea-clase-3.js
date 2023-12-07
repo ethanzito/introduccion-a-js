@@ -36,3 +36,14 @@ if (edadMia === edadUsuario) console.log('Tenes la misma edad que yo!');
 // Si no tiene documento, no dejarlo entrar al bar.
 // Si no entendemos la respuesta, le decimos que no entendimos la respuesta.
 // Punto bonus: SI, NO, Si, No, si, no.
+
+var poseeDocumento = prompt('Hola, posee documento?');
+
+if (poseeDocumento === 'si') {
+    var edadUsuario = Number(prompt('Que edad tienes?'));
+    if (edadUsuario >= 18) console.log('Puedes pasar'); 
+    else if (edadUsuario < 18) console.log('No puedes entrar');     
+    else console.log('No te entiendo'); 
+    }
+else if (poseeDocumento === 'no') console.log('No puedes entrar'); 
+else console.log('No te entiendo');
