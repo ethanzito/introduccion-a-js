@@ -7,6 +7,16 @@
 // Imprimir "Hola " y el nombre, " te llamás igual que mi ..."
 // Si no, simplemente imprimir "Hola " + nombre!
 
+var nombreMio = 'ramon';
+var nombreUsuario = prompt('Hola, cual es tu nombre?');
+var nombreAmigo = prompt('Y el de tu amigo?');
+
+if (nombreMio === nombreUsuario)
+{ console.log('Hola ' + nombreUsuario + '! Tambien me llaman ' + nombreUsuario); }
+else if (nombreMio === nombreAmigo) 
+{ console.log('Hola ' + nombreUsuario + '! Me llamo igual que tu amigo ' + nombreAmigo); }
+else console.log('Hola ' + nombreUsuario + '!');
+
 //Tarea 2:
 // Preguntar la edad del usuario
 // Hacerle saber si tiene más, menos ó la misma edad que nosotros.
