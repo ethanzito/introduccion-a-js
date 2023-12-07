@@ -16,12 +16,12 @@
 // No se olviden de hacer un console.log para ver el resultado!
 //
 
-const operador = '+';
+const operador = '-';
 const numero1 = 5;
 const numero2 = 5;
 
-if (operador === '+') sumar(numero1, numero2);
-else restar(numero1, numero2);
+if (operador === '-') restar(numero1, numero2);
+else sumar(numero1, numero2);
 
 function sumar(numero1, numero2) {
     resultado =  numero1 + numero2;
