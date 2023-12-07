@@ -23,7 +23,28 @@ console.log('Por mes ganas $' + salarioMensual(salarioAnual));
 // c) Preguntar el salario mensual y calcular el anual
 // diario... semanal, por hora. etc.
 
+var salarioPorMes = Number(prompt('Cuanto ganas mensualmente?'));
 
+function calcularSalarioAnual(salarioPorMes) {
+    return parseInt(salarioPorMes * 12);
+}
+
+function calcularSalarioDiario(salarioPorMes) {
+    return parseInt(salarioPorMes / 30);
+}
+
+function calcularSalarioSemanal(salarioPorMes) {
+    return parseInt(salarioPorMes / 4);
+}
+
+function calcularSalarioPorHora(salarioPorMes) {
+    return parseInt((salarioPorMes / 30) / 24);
+}
+
+console.log('Anualmente ganas $' + calcularSalarioAnual(salarioPorMes));
+console.log('Diariamente ganas $' + calcularSalarioDiario(salarioPorMes));
+console.log('Semanalmente ganas $' + calcularSalarioSemanal(salarioPorMes));
+console.log('Por hora ganas $' + calcularSalarioPorHora(salarioPorMes));
 
 /// SCOPE
 
