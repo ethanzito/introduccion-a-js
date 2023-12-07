@@ -16,7 +16,20 @@
 // No se olviden de hacer un console.log para ver el resultado!
 //
 
+const operador = '+';
+const numero1 = 5;
+const numero2 = 5;
 
+if (operador === '+') sumar(numero1, numero2);
+else restar(numero1, numero2);
+
+function sumar(numero1, numero2) {
+    resultado =  numero1 + numero2;
+}
+function restar(numero1, numero2) {
+    resultado =  numero1 - numero2;
+}
+console.log(`El resultado de ${numero1} ${operador} ${numero2} es ` + resultado);
 
 // b) TAREA: Cambiar el operador a '-', y fijarse que llame a la función 'restar' en vez de a la de 'sumar'.
 
