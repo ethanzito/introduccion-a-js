@@ -7,6 +7,12 @@ for (let i = 3; i < 22; i++) {
 // TAREA: Usando un bucle 'while', decile a tu computadora que registre los números de
 //       diez a uno.
 
+let i = 10;
+
+while (i > 0) {
+    console.log('Ejercicio 2: ' + i);
+     i--;
+}
 
 // TAREA: Ha llegado el momento de un ejercicio clásico: 'FizzBuzz'.
 // Cuenta del 1 al 50 e imprime los números:
