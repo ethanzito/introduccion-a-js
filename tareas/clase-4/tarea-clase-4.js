@@ -26,5 +26,15 @@ while (i > 0) {
 // 16% 4 = 0 - en 16 tenemos 4 * 4
 // 19% 4 = 3 - en 19 tenemos 4 * 4 + 3, etc.
 
+let n = 1;
+
+while (n < 50) {
+    if (n % 3 === 0 && n % 5 === 0) console.log(`${n} es multiplo de 3 y 5: fizzbuzz`) 
+    else if (n % 5 === 0) console.log(`${n} es multiplo de 5: buzz`)
+    else if (n % 3 === 0) console.log(`${n} es multiplo de 3: fizz`)
+    else console.log(`${n}`)
+    n++;
+}
+
 // Calcular el promedio de todos los números en un array de números. (y ponerlo en una función)
 // ej.: calcularPromedio([10,5,4,2,8])
