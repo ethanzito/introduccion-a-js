@@ -1,5 +1,8 @@
 // TAREA: Imprimí cada 3er número del 3 al 22 usando un 'bucle for'.
 
+for (let i = 3; i < 22; i++) {
+    console.log('Ejercicio 1: ' + i);
+}
 
 // TAREA: Usando un bucle 'while', decile a tu computadora que registre los números de
 //       diez a uno.
