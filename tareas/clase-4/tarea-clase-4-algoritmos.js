@@ -14,6 +14,15 @@ while (ej1 <= 10) {
   ej1++;
 }
 
+// 2)
+
+let ej2 = 0;
+
+while (ej2 <= 100) {
+  if ((ej2 % 2) !== 0) console.log(ej2);
+  ej2++;
+}
+
 /*
 Desafío de programación #1: Imprimí los números del 1 al 10
 
