@@ -23,6 +23,17 @@ while (ej2 <= 100) {
   ej2++;
 }
 
+// 3)
+
+const siete = 7;
+let ej3 = 1;
+
+while (ej3 <= 10) {
+  const resultado = siete * ej3;
+  console.log(`${siete} x ${ej3} = ` + resultado);
+  ej3++;
+}
+
 /*
 Desafío de programación #1: Imprimí los números del 1 al 10
 
