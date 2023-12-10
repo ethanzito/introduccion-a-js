@@ -48,6 +48,19 @@ while (tabla <= 9) {
   tabla++;
 }
 
+// 5)
+
+const numerosArray = [1,2,3,4,5,6,7,8,9,10];
+let indice = 0;
+let resultado = 0;
+
+while (indice < numerosArray.length) {
+  resultado += numerosArray[indice];
+  indice++;
+}
+
+console.log(resultado);
+
 /*
 Desafío de programación #1: Imprimí los números del 1 al 10
 
