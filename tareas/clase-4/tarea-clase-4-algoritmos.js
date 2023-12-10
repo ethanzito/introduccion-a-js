@@ -34,6 +34,20 @@ while (ej3 <= 10) {
   ej3++;
 }
 
+// 4)
+
+let tabla = 1;
+
+while (tabla <= 9) {  
+  let multiplo = 1;
+  while (multiplo <= 10) {
+    const resultado = tabla * multiplo;
+    console.log(`${tabla} x ${multiplo} = ` + resultado);
+    multiplo++;
+  }
+  tabla++;
+}
+
 /*
 Desafío de programación #1: Imprimí los números del 1 al 10
 
