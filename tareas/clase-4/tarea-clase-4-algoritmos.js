@@ -5,6 +5,15 @@ Estos desafíos de coding están enfocados para los principiantes, por lo tanto 
 usando  elementos de programación simples y clásicos.
 */
 
+// 1)
+
+let ej1 = 1;
+
+while (ej1 <= 10) {
+  console.log(ej1);
+  ej1++;
+}
+
 /*
 Desafío de programación #1: Imprimí los números del 1 al 10
 
