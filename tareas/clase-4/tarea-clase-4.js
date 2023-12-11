@@ -38,3 +38,18 @@ while (n < 50) {
 
 // Calcular el promedio de todos los números en un array de números. (y ponerlo en una función)
 // ej.: calcularPromedio([10,5,4,2,8])
+
+let r = 0
+let j = 0;
+let numerosArray = [1,2,3,4,5];
+
+while (j < numerosArray.length) {
+    r += numerosArray[j];
+    j++;
+}
+
+function promedio() {
+    return r / numerosArray.length;
+}
+
+console.log('El promedio de todos los numeros en el array es: ' + promedio());
