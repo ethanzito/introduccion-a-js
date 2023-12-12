@@ -61,6 +61,19 @@ while (indice < numerosArray.length) {
 
 console.log(resultado);
 
+// 6) 
+
+const factorial = 10
+let ej6 = 1;
+let total = 1; 
+
+while (ej6 <= factorial) {
+  total = total * ej6;
+  ej6++; 
+}
+
+console.log('10! = ' + total);
+
 /*
 Desafío de programación #1: Imprimí los números del 1 al 10
 
