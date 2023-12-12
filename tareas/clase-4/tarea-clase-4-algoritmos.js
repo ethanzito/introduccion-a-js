@@ -99,6 +99,17 @@ function fahrenheit(c) {
 
 console.log(`${celcius}°C equivale a ` + fahrenheit(celcius) + '°F');
 
+// 9)
+
+const f = 86;
+
+function transformarCelcius(f) {
+  return (f - 32) / 1.8;
+
+}
+
+console.log(`${f}°F equivale a ` + transformarCelcius(f) + '°C');
+
 /*
 Desafío de programación #1: Imprimí los números del 1 al 10
 
