@@ -123,6 +123,23 @@ while (index < listaNumeros.length) {
 
 console.log(`${listaNumeros[0]} + ${listaNumeros[1]} + ${listaNumeros[2]} = ` + totalNumeros);
 
+// 11)
+
+const listaNumeros2 = [6,6,6];
+
+function promedioNumeros(listaNumeros2) {  
+  let indice = 0;
+  let totalNumeros = 0;
+
+  while (indice < listaNumeros2.length) {
+    totalNumeros += listaNumeros2[indice];
+    indice++;
+  }
+  return totalNumeros / listaNumeros.length;    
+}
+
+console.log(promedioNumeros(listaNumeros2));
+
 /*
 Desafío de programación #1: Imprimí los números del 1 al 10
 
