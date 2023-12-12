@@ -110,6 +110,19 @@ function transformarCelcius(f) {
 
 console.log(`${f}°F equivale a ` + transformarCelcius(f) + '°C');
 
+// 10)
+
+const listaNumeros = [7,8,9];
+let index = 0;
+let totalNumeros = 0;
+
+while (index < listaNumeros.length) {
+  totalNumeros += listaNumeros[index];
+  index++;
+}
+
+console.log(`${listaNumeros[0]} + ${listaNumeros[1]} + ${listaNumeros[2]} = ` + totalNumeros);
+
 /*
 Desafío de programación #1: Imprimí los números del 1 al 10
 
