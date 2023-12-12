@@ -88,6 +88,17 @@ while (ej7 < 30) {
 
 console.log(total2);
 
+// 8)
+
+const celcius = 30;
+
+function fahrenheit(c) {
+  return (c * 1.8) + 32;
+
+}
+
+console.log(`${celcius}°C equivale a ` + fahrenheit(celcius) + '°F');
+
 /*
 Desafío de programación #1: Imprimí los números del 1 al 10
 
