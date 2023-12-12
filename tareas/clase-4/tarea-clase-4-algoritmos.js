@@ -74,6 +74,20 @@ while (ej6 <= factorial) {
 
 console.log('10! = ' + total);
 
+// 7)
+
+let ej7 = 10;
+let total2 = 0;
+
+while (ej7 < 30) {
+  if (ej7 % 2 !== 0) {
+    total2 += ej7;
+  }
+  ej7++;
+}
+
+console.log(total2);
+
 /*
 Desafío de programación #1: Imprimí los números del 1 al 10
 
