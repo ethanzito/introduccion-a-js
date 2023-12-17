@@ -1,3 +1,14 @@
+// 1)
+
+document.querySelector('#calcularSalarioMensual').onclick = function() {
+  const salarioAnualUsuario = document.querySelector('#salarioAnualUsuario').value;
+  const salarioMensualTotal = document.querySelector('#salarioMensual');
+  
+  salarioMensualTotal.value = salarioAnualUsuario / 12;
+
+  return false;
+}
+
 /*
 Cosas a tener en cuenta:
 1. Los <input> no tienen .innerText, en vez de eso, usan .value. https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input
